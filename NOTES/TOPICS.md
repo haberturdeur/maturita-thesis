@@ -1,6 +1,3 @@
-# Maturitní práce - tvorba videonávodů na CAD SolidWorks
-Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videonávodů ke CAD programu SolidWorks zabývajícími se primárně problémy, se kterými se potýkají studenti SPŠ a VOŠ Sokolská Brno.
-
 # Seznam témat seřazených dle okruhů
 V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruhů.
 
@@ -31,4 +28,4 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruh
 
 ## Ostatní
  * Práce s PTC Mathcad (?)
-
+ * 
