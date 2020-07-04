@@ -45,7 +45,9 @@
 \def\titlecz#1{\def\@titlecz{#1}}
 \def\titleen#1{\def\@titleen{#1}}
 \def\author#1{\def\@author{#1}}
-\def\school#1{\def\@school{#1}}
+\def\institution#1{\def\@institution{#1}}
+\def\institutiontype#1{\def\@institutiontype{#1}}
+\def\thesistype#1{\def\@thesistype{#1}}
 \def\region#1{\def\@region{#1}}
 \def\mentor#1{\def\@mentor{#1}}
 \def\mentorstatement#1{\def\@mentorstatement{#1}}
@@ -65,9 +67,9 @@
 	\voffset = -20mm % posun začátku textu výš
     \enlargethispage{40mm} % zvětší oblast tisku pro tuto stránku
 	\begin{center}
-		{\normalsize \B{STŘEDNÍ PRŮMYSLOVÁ A VYŠŠÍ ODBORNÁ ŠKOLA BRNO, SOKOLSKÁ 1, příspěvková organizace}} \\
+		{\normalsize \B{\expandafter\MakeUppercase\expandafter{\@institution}, \@institutiontype}} \\
 	    \vspace{10mm}
-		\large \B{MATURITNÍ PRÁCE} \\
+		\large \B{\expandafter\MakeUppercase\expandafter{\@thesistype}} \\
 
 		\vspace{40mm}
 
@@ -86,7 +88,7 @@
 	\pagestyle{empty}
     \enlargethispage{40mm} % zvětší oblast tisku pro tuto stránku
 	\begin{center}
-	    {\normalsize \B{STŘEDNÍ PRŮMYSLOVÁ A VYŠŠÍ ODBORNÁ ŠKOLA BRNO, SOKOLSKÁ 1, příspěvková organizace}} \\
+	    {\normalsize \B{\@institution}} \\
 
 		\vspace{40mm}
 
