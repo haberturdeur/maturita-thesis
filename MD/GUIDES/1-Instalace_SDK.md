@@ -7,7 +7,7 @@ Je nutné psát **bez diakritiky**!
 V sekci **„Product information“** pod textem **„I already have a Serial Number that starts with 9020“** zaškrtneme možnost **„No“** a do kolonky níže napíšeme **9SDK2019**.
 Na pravé straně poté zaškrtneme nejnovější verzi, tedy **2020-2021**.
 
-![Formulář pro stažení SDK](/img/1-Instalace_SDK/SDK-download-1.png)
+![Formulář pro stažení SDK](/MD/GUIDES/img/1-Instalace_SDK/SDK-download-1.png)
 
 Vyplněný formulář odešleme kliknutím na tlačítko **Request download**.
 
