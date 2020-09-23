@@ -65,9 +65,13 @@
 \renewcommand{\maketitle}{%
 	\pagestyle{empty}
 	\voffset = -20mm % posun začátku textu výš
-    \enlargethispage{40mm} % zvětší oblast tisku pro tuto stránku
+	\enlargethispage{40mm} % zvětší oblast tisku pro tuto stránku
 	\begin{center}
-		{\normalsize \B{\expandafter\MakeUppercase\expandafter{\@institution}, \@institutiontype}} \\
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.85\textwidth]{img/logo-sokolska.jpg}
+			\label{fig:SOKO-LOGO}
+		\end{figure}
 	    \vspace{10mm}
 		\large \B{\expandafter\MakeUppercase\expandafter{\@thesistype}} \\
 
