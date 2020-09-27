@@ -10,7 +10,7 @@ Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videon
 ## Série SOLIDWORKS pro Sokolíky:
 [Práce s výkresovými šablonami](https://www.youtube.com/watch?v=UsQf6wfVkUw)
 
-### Normalizované prvky **PROZATÍM NEVEŘEJNÉ**
+### Normalizované prvky - ***PROZATÍM NEVEŘEJNÉ***
 [Drážka pro pero v náboji](https://youtu.be/82K2btJBABc)
 
 [Drážka pro pero na hřídeli](https://youtu.be/fxKMXNVeG-0)
@@ -33,6 +33,16 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruh
  - [ ] Tabulka přířezů
  - [ ] a další...
 
+## Normalizované prvky
+ - [x] Perodrážka - hřídel (https://youtu.be/82K2btJBABc)
+ - [x] Perodrážka - náboj (https://youtu.be/fxKMXNVeG-0)
+ - [ ] Segrovka - hřídel
+ - [ ] Segrovka - náboj
+ - [ ] Drážkování - rovnoboké v náboji
+ - [ ] Drážkování - rovnoboké ve hřídeli
+ - [ ] Drážkování - jemné v náboji
+ - [ ] Drážkování - jemné ve hřídeli
+
 ## Práce v sestavě
  - [ ] Vazby základní (možná rozvinout na minisérii)
  - [ ] Strojní vazby
@@ -40,7 +50,7 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruh
  - [ ] Práce s normalizovanými díly
 
 ## Výkresová dokumentace
- - [x] Práce se školními šablonami a popisové pole 
+ - [x] Práce se školními šablonami a popisové pole (https://www.youtube.com/watch?v=UsQf6wfVkUw)
  - [ ] Kusovník a pozice
  - [ ] Tabulka přířezů
 
