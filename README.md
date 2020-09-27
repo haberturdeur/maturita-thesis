@@ -10,34 +10,49 @@ Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videon
 ## Série SOLIDWORKS pro Sokolíky:
 [Práce s výkresovými šablonami](https://www.youtube.com/watch?v=UsQf6wfVkUw)
 
+### Normalizované prvky **PROZATÍM NEVEŘEJNÉ**
+[Drážka pro pero v náboji](https://youtu.be/82K2btJBABc)
+
+[Drážka pro pero na hřídeli](https://youtu.be/fxKMXNVeG-0)
+
 # Seznam témat seřazených dle okruhů
 V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruhů.
 
-## Práce s díly
- * Plechové díly
- * Svařované konstrukce
- * Normalizované prvky
+## Plechové díly (série)
+ - [ ] Založení dílu a základní plech
+ - [ ] Lemy, základní ohyby
+ - [ ] Vybočení
+ - [ ] Tvarovací nástroje
+ - [ ] Převod objemového tělesa na plechový díl
+ - [ ] a další...
+
+## Svařované konstrukce (série)
+ - [ ] Založení dílu
+ - [ ] Tvorba profilu
+ - [ ] Svary
+ - [ ] Tabulka přířezů
+ - [ ] a další...
 
 ## Práce v sestavě
- * Vazby obecně
- * Strojní vazby
- * Přejmenování dílů v sestavě
- * Práce s normalizovanými díly
+ - [ ] Vazby základní (možná rozvinout na minisérii)
+ - [ ] Strojní vazby
+ - [ ] Přejmenování dílů v sestavě
+ - [ ] Práce s normalizovanými díly
 
 ## Výkresová dokumentace
- * Práce se školními šablonami a popisové pole
- * Kusovník a pozice
- * Tabulka přířezů
+ - [x] Práce se školními šablonami a popisové pole 
+ - [ ] Kusovník a pozice
+ - [ ] Tabulka přířezů
 
 ## Technické kreslení a SolidWorks
- * Perodrážky
- * Svary
+ - [ ] Perodrážky
+ - [ ] Svary
 
 ## Strojní součásti a mechanismy
- * Příruby (dobré na procvičení rot. souč. a řízených polí)
- * Ozubená kola
- * Převodovka
+ - [ ] Příruby (dobré na procvičení rot. souč. a řízených polí)
+ - [ ] Ozubená kola
+ - [ ] Převodovka
 
 ## Ostatní
- * Práce s PTC Mathcad (?)
+ - [ ] Práce s PTC Mathcad (?)
 
