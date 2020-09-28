@@ -18,6 +18,22 @@ Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videon
 # Seznam témat seřazených dle okruhů
 V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruhů.
 
+## Strojní součásti
+ - [ ] Pružina
+ - [ ] Ozubené kolo čelní s přímým ozubením
+ - [ ] Řetězové kolo
+ - [ ] Řetěz 
+ - [ ] Řemen
+
+## Všemožné problémy
+ - [ ] Přejmenování dílu v sestavě, nebo na výkrese
+ - [ ] Přesun sestavy
+
+## Strojní součásti a mechanismy
+ - [ ] Příruby (dobré na procvičení rot. souč. a řízených polí)
+ - [ ] Ozubená kola
+ - [ ] Převodovka
+ 
 ## Plechové díly (série)
  - [ ] Založení dílu a základní plech
  - [ ] Lemy, základní ohyby
@@ -58,10 +74,7 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruh
  - [ ] Perodrážky
  - [ ] Svary
 
-## Strojní součásti a mechanismy
- - [ ] Příruby (dobré na procvičení rot. souč. a řízených polí)
- - [ ] Ozubená kola
- - [ ] Převodovka
+
 
 ## Ostatní
  - [ ] Práce s PTC Mathcad (?)
