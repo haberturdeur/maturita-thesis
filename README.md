@@ -15,8 +15,12 @@ Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videon
 
 [Drážka pro pero na hřídeli](https://youtu.be/fxKMXNVeG-0)
 
+# Tech. realizace
+Součástí práce bude tvorba webových stránek fungujících jako rozcestník.
+Student si za pomocí této stránky bude moci najít jednotlivá videa seřazená dle témat.
+
 # Seznam témat seřazených dle okruhů
-V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruhů.
+V tomto seznamu jsou vypsána témata videí rozdělená do jednotlivých okruhů.
 
 ## Strojní součásti
  - [ ] Pružina
@@ -33,7 +37,7 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednostlivých okruh
  - [ ] Příruby (dobré na procvičení rot. souč. a řízených polí)
  - [ ] Ozubená kola
  - [ ] Převodovka
- 
+
 ## Plechové díly (série)
  - [ ] Založení dílu a základní plech
  - [ ] Lemy, základní ohyby
