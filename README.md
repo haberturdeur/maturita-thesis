@@ -23,8 +23,8 @@ Student si za pomocí této stránky bude moci najít jednotlivá videa seřazen
 V tomto seznamu jsou vypsána témata videí rozdělená do jednotlivých okruhů.
 
 ## Strojní součásti
- - [ ] Pružina
- - [ ] Ozubené kolo čelní s přímým ozubením
+ - [x] Pružina
+ - [x] Ozubené kolo čelní s přímým ozubením
  - [ ] Řetězové kolo
  - [ ] Řetěz 
  - [ ] Řemen
