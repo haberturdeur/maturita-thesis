@@ -25,6 +25,7 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednotlivých okruh�
 ## Strojní součásti
  - [x] Pružina
  - [x] Ozubené kolo čelní s přímým ozubením
+ - [x] Ozubené kolo - výkresový model
  - [ ] Řetězové kolo
  - [ ] Řetěz 
  - [ ] Řemen
