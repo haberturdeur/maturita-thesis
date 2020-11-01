@@ -1,6 +1,9 @@
 # Maturitní práce - tvorba videonávodů na CAD SolidWorks
 Repozitář obsahující text mé maturitní práce zaměřené na tvorbu videonávodů ke CAD programu SolidWorks zabývajícími se primárně problémy, se kterými se potýkají studenti SPŠ a VOŠ Sokolská Brno.
 
+Všechna videa jsou také k nalezení na https://www.p3d.parallaxproduction.cz.
+[![P3D portal homepage](/img/P3D-portal-home.png)](https://www.p3d.parallaxproduction.cz)
+
 # Seznam již vydaných videí
 ## Instalace a rozběhnutí SOLIDWORKS:
 [Instalace SolidWorks SDK 2020](https://www.youtube.com/watch?v=bGPNQTgRV2U)
