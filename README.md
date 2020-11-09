@@ -29,7 +29,7 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednotlivých okruh�
  - [x] Pružina
  - [x] Ozubené kolo čelní s přímým ozubením
  - [x] Ozubené kolo - výkresový model
- - [ ] Řetězové kolo
+ - [x] Řetězové kolo
  - [ ] Řetěz 
  - [ ] Řemen
 
@@ -58,8 +58,8 @@ V tomto seznamu jsou vypsána témata videí rozdělená do jednotlivých okruh�
  - [ ] a další...
 
 ## Normalizované prvky
- - [x] Perodrážka - hřídel (https://youtu.be/82K2btJBABc)
- - [x] Perodrážka - náboj (https://youtu.be/fxKMXNVeG-0)
+ - [x] Perodrážka - hřídel
+ - [x] Perodrážka - náboj
  - [ ] Segrovka - hřídel
  - [ ] Segrovka - náboj
  - [ ] Drážkování - rovnoboké v náboji
