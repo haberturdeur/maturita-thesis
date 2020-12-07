@@ -6,8 +6,10 @@
 \usepackage{hyperref}
 \usepackage{gensymb} % balíček symbolů
 \usepackage{booktabs}
+\usepackage{lmodern}
 \usepackage[T1]{fontenc} % evropské uvozovky
 \usepackage{csquotes} % text lze uvést do uvozovek pomocí \enquote{text}
+\usepackage{textcomp}
 
 \usepackage[toc,page]{appendix}
 \usepackage{color} % balíček pro obarvování textů
@@ -18,6 +20,8 @@
 % dva módy (status): draft (poznámky se zobrazují v PDF) / final (poznámky se nezobrazují v PDF)
 \usepackage{multirow}
 \usepackage{float}
+
+\usepackage[a4paper]{geometry}
 
 \lstset { %
     language=C++,
@@ -40,20 +44,22 @@
 
 \placefooter{Brno 2021}
 
-%\usepackage{hyperref} % balíček pro hypertextové odkazy
+% \usepackage{hyperref} % balíček pro hypertextové odkazy
 % \url{www.odkaz.cz}
 % \href{http://www.odkaz.cz}{Text který bude jako odkaz}
 % \hyperlink{label}{proklikávací_text} - odkaz na text 
 % \hypertarget{label}{cíl_odkazu} - cíl odkazu 
 
 \begin{document}
-\hyphenation{SOLIDWORKS Solid-Works}
+\hyphenation{SOLIDWORKS Solid/-Works}
 
 \maketitle
 
+\newgeometry{margin=2cm, top=3cm, includefoot}
+
 \makecopyrightstatement{V~Brně}
 
-\makethanks{Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Pellentesque arcu. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce aliquam vestibulum ipsum. Aenean placerat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Vivamus porttitor turpis ac leo. Nullam eget nisl. Maecenas libero. Nunc auctor. Nullam rhoncus aliquam metus. Integer pellentesque quam vel velit.}
+\makethanks{Děkuji svému vedoucímu práce}
 
 \pagestyle{empty}
 
@@ -61,18 +67,18 @@
 Sem patří anotace v češtině.
 
 \subsection*{Klíčová slova}
-5 a příp. více klíčových slov
+SolidWorks, 3D modelování, CAD, videonávody, P3D
 
 \vspace{20mm}
 
 \section*{Annotation}
 Here goes english version of thesis annotation.
-\fxnote[author=PŠ]{Nějak takto vypadá poznámka vytvořená přes fxnote}
+% \fxnote[author=PŠ]{Nějak takto vypadá poznámka vytvořená přes fxnote}
 
-\fxnote[author=PŠ]{\textcolor{mygreen}{A dokonce je lze obarvit!}}
+% \fxnote[author=PŠ]{\textcolor{mygreen}{A dokonce je lze obarvit!}}
 
 \subsection*{Keywords}
-Here goes 5 or more keywords
+SolidWorks, 3D modelling, CAD, videoguides, P3D
 
 \newpage
 \pagestyle{plain}
@@ -88,9 +94,12 @@ Here goes 5 or more keywords
 \input{CHAPTERS/UVOD.tex}
 
 % Uspory dosazene pouzitim protoplantu
-\input{CHAPTERS/KAPITOLA.tex}
+\input{CHAPTERS/MOTIVACE.tex}
 
-% Uspory dosazene pouzitim protoplantu
+% Portál P3D
+\input{CHAPTERS/P3D-PORTAL.tex}
+
+% Textové verze vybranuých návodů
 \input{CHAPTERS/TEXTOVE-NAVODY.tex}
 
 % Zaver prace

@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{template/UnTeXtem}[2017/01/15 Document class for czech SOC theses]
+\ProvidesClass{template/UnTeXtem}[2020/04/12 Universal tex template document class]
 \LoadClass[12pt, a4paper, oneside]{book}
 
 \RequirePackage[utf8]{inputenc}
@@ -12,19 +12,17 @@
 \RequirePackage[backend=bibtex,bibstyle=numeric,sorting=none,date=long,dateabbrev=false,texencoding=utf8,bibencoding=utf8,style=iso-numeric]{biblatex}
 \RequirePackage{caption}
 
-
 %%%%%% PŘÍKAZY
 \newcommand{\B}{\textbf} % tučné písmo
 \newcommand{\It}{\textit} % kurzíva
-\newcommand{\superscript}{\textsuperscript}
-\newcommand{\subscript}{\textsubscript}
+\newcommand{\superscript}{\textsuperscript} % horní index
+\newcommand{\subscript}{\textsubscript} % dolní index
 %%%%%% ROZMĚRY
 
 % posun textu kvůli kroužkové vazbě
 %\addtolength{\textwidth}{mm}
 \addtolength{\hoffset}{4mm}
-
-\setlength{\intextsep}{5mm} % nastavení mezery okolo obrázků
+\setlength{\intextsep}{2.5mm} % nastavení mezery okolo obrázků
 \marginparsep=15pt
 \linespread{1.3}
 \unitlength=1mm % nastavení volby jednotek
@@ -39,7 +37,7 @@
 \def\subsectionautorefname{kapitola}
 \def\sectionautorefname{kapitola}
 \def\figureautorefname{obrázek}
-\def\tableautorefname{oabulka}
+\def\tableautorefname{tabulka}
 
 %%%%%% PROMĚNNÉ
 \def\titlecz#1{\def\@titlecz{#1}}
