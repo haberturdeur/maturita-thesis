@@ -1,7 +1,7 @@
 \chapter{Instalace a nastavení SolidWorks}
 \section{Instalace SolidWorks SDK}
 
-\subsection{Stažení instalátoru a získání licenčních klíčů}
+\subsection*{Stažení instalátoru a získání licenčních klíčů}
 Začneme otevřením webové stránky \href{http://www.solidworks.com/sdk}{www.solidworks.com/sdk}.
 Zobrazí se nám formulář, do kterého vyplníme údaje o sobě (jméno, příjmení, e-mail a status - student).
 Je nutné psát \B{bez diakritiky}!
@@ -17,7 +17,7 @@ Nyní jsme se již dostaly na stránku, odkud můžeme SDK stáhnout.
 Klikneme tedy na tlačítko \B{Download}, čímž si stáhneme instalátor.
 Okno ještě \B{nezavíráme} - budeme z něj potřebovat zkopírovat licenční čísla. 
 
-\subsection{Instalace}
+\subsection*{Instalace}
 Stažený instalátor otevřeme. 
 Objeví se nám okno, ve kterém můžeme nastavit, kam chceme vyextrahovat soubory instalace.
 Jakmile máme umístění zvolené, klikneme na tlačítko \B{Unzip}.
@@ -31,11 +31,27 @@ Otevřeme si tedy webový prohlížeč se stránkou, kde byla tato čísla napsa
 \section{Instalace školních šablon a norm. dílů}
 
 \subsection*{Stažení .ZIP archivu}
+Nejprve je potřeba si stáhnout .ZIP soubor, který šablony a norm. díly obsahuje.
+Nalezneme jej na adrese \href{https://bit.ly/CAD1921XE}{bit.ly/CAD1921XE}.
+Stažený zip soubor si otevřeme a podle toho, jestli máme verzi SolidWorks 2019, nebo 2020 si na plochu zkopírujeme jednu ze dvou složek v něm obsažených (2019-2020 pro 2019, 2020-2021 pro 2020).
 
 \subsection*{Instalace šablon a knihoven materiálů}
+Zkopírovanou složku otevřeme.
+Složku \It{Šablony SolidWorks...} si z ní přesunu na plochu a opět ji otevřu.
+V novém okně průzkumníka Windows otevřeme disk C:, kam zkopírujeme obsah této složky (tedy složky \B{Program Files a ProgramData}).
+Systém se zeptá, zda-li chceme některé soubory nahradit, vybereme že tak chceme učinit.
+Původní složku \It{Šablony SolidWorks...} můžeme smazat, již ji nebudeme potřebovat.
 
 \subsection*{Instalace normalizovaných dílů}
+Na ploše máme stále složku s podsložkami \B{NORMALIZOVANÉ DÍLY, NORMALIZOVANÉ PRVKY, NORMALIZOVANÉ PROFILY a TECHNICKÉ KRESLENÍ}, přejmenujeme ji na lépe dohledatelný název, například \It{CAD\_SOKOLSKA}.
+Přejmenovanou složku přesuneme do složky \B{Dokumenty}.
 
+\noindent Nyní otevřeme SolidWorks.
+Na pravé straně klikneme na kartu \It{Knihovna návrhů}.
+Otevře se boční panel.
+Na jeho horní straně je několik tlačítek, klikneme na \It{Přidat umístění souboru}.
+V dialogovém okně otevřeme složku \It{Dokumenty} a v ní \It{CAD\_SOKOLSKA}.
+Nyní klikneme na OK, čímž se nám složka přidá do knihovny návrhů.
 
 \section{Zprovoznění RealView na necertifikovaném počítači}
 \subsection*{Co je to režim RealView?}
@@ -70,6 +86,8 @@ Teď již jen musíme vyzkoušet, zda nám RealView funguje jak má.
 Otevřeme SolidWorks a v něm nějaký díl, nebo sestavu.
 Nahoře klikneme na tlačítko se symbolem oka a pokud se mezi možnostmi objeví i RealView, vše je v pořádku. 
 
+\newpage
+
 %%% Výkresovka - textové přepisy návodů
 \chapter{Výkresová dokumentace - vybrané návody}
 \fxnote[author=PŠ]{\textcolor{mygreen}{Sekci dopíšu, jakmile začnu točit videa z výkresovky}}
@@ -82,6 +100,8 @@ Nahoře klikneme na tlačítko se symbolem oka a pokud se mezi možnostmi objev�
 
 \subsection{Drážka pro pojist. kroužek}
 
+\newpage
+
 %%% Vybrané text. návody z modelování
 \chapter{Modelování - vybrané návody}
 
@@ -89,11 +109,21 @@ Nahoře klikneme na tlačítko se symbolem oka a pokud se mezi možnostmi objev�
 \section{Drážka pro pero v náboji}
 
 \subsection*{Skica}
+Vytvoříme kružnici na jedné ze základních ploch a zakótujeme ji průměrem hřídele, na který chceme náboj nasadit.
+Na horní obvodový bod kružnice umístíme střed \It{obdélníku s počátkem ve středu}.
+
+Šířka tohoto obdélníku je shodná s velikostí šířky drážky (hodnota \B{b} v ST).
+Výška obdélníku musí být kótovaná vůči protilehlé hraně kružnice, kterou vybereme s podržením klávesy \It{SHIFT}.
+Hodnotu kóty získáme součtem výšky \B{T\subscript{1}} a průměru hřídele/díry.
 
 \subsection*{Odebrání vysunutím}
+V nabídce \It{Prvky} vybereme prvek \It{Odebrání vysunutím}.
+Vybereme všechny 3 oblasti, které ve skice vzniknou a hloubku nastavíme na \It{Skrz vše}.
+Díra s drážkou pro pero je takto hotová.
 
 %%% Drážka pro pero - hřídel
 \section{Drážka pro pero na hřídeli}
+\fxnote[author=PŠ]{\textcolor{mygreen}{Video ještě není hotové.}}
 
 \subsection*{Vytvoření roviny}
 
@@ -103,6 +133,7 @@ Nahoře klikneme na tlačítko se symbolem oka a pokud se mezi možnostmi objev�
 
 %%% Drážka pro PK - náboj
 \section{Drážka pro pojist. kroužek v náboji}
+\fxnote[author=PŠ]{\textcolor{mygreen}{Video ještě není hotové.}}
 
 \subsection*{Skica}
 
@@ -110,6 +141,7 @@ Nahoře klikneme na tlačítko se symbolem oka a pokud se mezi možnostmi objev�
 
 %%% Drážka pro PK - hřídel
 \section{Drážka pro pojistný kroužek na hřídeli}
+\fxnote[author=PŠ]{\textcolor{mygreen}{Video ještě není hotové.}}
 
 \subsection*{Skica}
 
