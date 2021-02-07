@@ -1,5 +1,6 @@
 \documentclass{template/template}
 
+\usepackage[T1]{fontenc} % evropské uvozovky
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{enumitem}
@@ -7,7 +8,6 @@
 \usepackage{gensymb} % balíček symbolů
 \usepackage{booktabs}
 \usepackage{lmodern}
-\usepackage[T1]{fontenc} % evropské uvozovky
 \usepackage{csquotes} % text lze uvést do uvozovek pomocí \enquote{text}
 \usepackage{textcomp}
 
@@ -21,9 +21,12 @@
 \usepackage{multirow}
 \usepackage{float}
 
+\usepackage{expl3}
+\usepackage[backend=bibtex,bibstyle=numeric,sorting=none,date=long,dateabbrev=false,texencoding=utf8,bibencoding=utf8,style=iso-numeric]{biblatex}
+
 \usepackage[a4paper]{geometry}
 
-\lstset { %
+\lstset { 
     language=C++,
     backgroundcolor=\color{black!5}, % set backgroundcolor
     basicstyle=\footnotesize,% basic font setting
@@ -51,7 +54,7 @@
 % \hypertarget{label}{cíl_odkazu} - cíl odkazu 
 
 \begin{document}
-\hyphenation{SOLIDWORKS Solid/-Works}
+%\hyphenation{SOLIDWORKS Solid/-Works}
 
 \maketitle
 
@@ -109,7 +112,7 @@ SolidWorks, 3D modelling, CAD, videoguides, P3D
 % Prilohy
 \input{CHAPTERS/PRILOHY.tex}
 
-\printbibliography[title=Literatura]
+% \printbibliography[title=Literatura]
 \addcontentsline{toc}{chapter}{Literatura}
 
 \listoffigures
