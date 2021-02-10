@@ -8,7 +8,7 @@ Je nutné psát \B{bez diakritiky}!
 
 \fxnote[author=PŠ]{\textcolor{mygreen}{Sem přijde screenshot formuláře}}
 
-V sekci \B{Product information} pod textem \B{„I already have a Serial Number that starts with 9020“} zaškrtneme možnost \B{No} a do kolonky níže napíšeme \B{9SDK2019}.
+V sekci \B{Product information} pod textem \B{\enquote{I already have a Serial Number that starts with 9020}} zaškrtneme možnost \B{No} a do kolonky níže napíšeme \B{9SDK2019}.
 Na pravé straně poté zaškrtneme nejnovější verzi, tedy \B{2020-2021}.
 Vyplněný formulář odešleme kliknutím na tlačítko \B{Request download}.
 Na další stránce potvrdíme licenční podmínky tlačítkem \B{Accept and Continue}.
@@ -179,7 +179,13 @@ V následujících pár řádcích se pokusím tuto problematiku objasnit.
 
 \subsection*{Struktura projektů v SolidWorks}
 Pro práci se sestavami je dobré vědět, jak fungují vazby a reference mezi soubory.
-Tyto vazby přehledně vyobrazuje diagram níže.
+Tyto vazby přehledně ukazuje \autoref{fig:SOLIDWORKS_part-assembly-drawing}.
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.35\textwidth]{img/graphics/png/SOLIDWORKS - PART-ASSEMBLY-DRAWING.png}
+    \caption{Ilustrace vztahů mezi typy souborů SolidWorks}
+    \label{fig:SOLIDWORKS_part-assembly-drawing}
+\end{figure}
 
 Pro to, abychom museli řešit přejmenovávání dílů v sestavách co nejméně, je dobré nazývat soubory správně již při vytváření.
 Máme-li tedy nějaký díl (pro příklad vezměme ozubené kolo), pojmenujme jej tedy rovnou jako pastorek, nebo ozubené kolo.
